@@ -1,0 +1,54 @@
+body{
+   
+}
+
+.navbar>.container-fluid .logo.navbar-brand {
+    width: 100px;
+    padding: 0;
+    margin-left: 15px;
+    display: inline-block;
+}
+.navbar {
+    margin: 0;
+}
+.wrapper{
+    width:320px;
+    margin: 10px auto;
+    border:1px solid #ccc;
+}
+.login{
+    margin:0 auto;
+    float:none;
+}
+.login .form-control, .login button {
+    margin-top: 10px;
+}
+footer{
+    color:#fff;
+}
+
+
+
+/*tablet styles*/
+@media screen and (min-width: 660px)  and (max-width: 980px) {
+
+    .wrapper{
+        width:660px;
+        min-height:650px;
+    }
+    .login{
+        margin-top:200px;
+    }
+  }
+
+  
+/*Desktop styles*/
+@media screen and (min-width: 980px)   {
+    .wrapper{
+        width:980px;
+        min-height:650px;
+    }
+    .login{
+        margin-top:200px;
+    }
+}
